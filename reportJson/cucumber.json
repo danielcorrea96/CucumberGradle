@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Abrir el navegador en p�gina de Gmail,y acceder con las credenciales de AccentureTesting2018@gmail.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7474015051,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que Accenture Testing abrio el navegador en la pagina de gmail",
+            "match": {
+              "location": "StepDefinitions1.que_accenture_testing_abrio_el_navegador_en_la_pagina_de_gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3088371745,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ingresa las credenciales de AccentureTesting2018@gmail.com con 123456Accenture",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AccentureTesting2018@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "123456Accenture",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinitions1.ingresa_las_credenciales_de_accenturetestinggmailcom_con_123456(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "PRUEBA A REALIZAR - Enviar Correo Electr�nico desde la p�gina de Gmail.",
+        "description": "",
+        "id": "funcionalidad---envio-de-correo-electr�nico-en-la-p�gina-de-gmail.;prueba-a-realizar---enviar-correo-electr�nico-desde-la-p�gina-de-gmail.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6857395136,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Accenture Testing quiere enviar un nuevo correo electronico a danielcorrea1058@gmail.com con asunto Automatizacion de pruebas y cuerpo Este mensaje es generado automaticamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "danielcorrea1058@gmail.com",
+                  "offset": 62
+                },
+                {
+                  "val": "Automatizacion de pruebas",
+                  "offset": 100
+                },
+                {
+                  "val": "Este mensaje es generado automaticamente",
+                  "offset": 135
+                }
+              ],
+              "location": "StepDefinitions1.accenture_testing_quiere_enviar_un_nuevo_correo_electronico(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7504337086,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Accenture Testing espera haber enviado su mensaje a su amigo con asunto Automatizacion de pruebas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automatizacion de pruebas",
+                  "offset": 72
+                }
+              ],
+              "location": "StepDefinitions1.accenture_Testing_espera_haber_enviado_su_mensaje_a_su_amigo_con_asunto_Automatizacion_de_pruebas(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FUNCIONALIDAD - Envio de correo electr�nico en la p�gina de gmail.",
+    "description": "COMO un usuario AccentureTesting@gmail.com\nQUIERO enviar un correo electr�nico.\nPARA exponer una introducci�n a la automatizaci�n de pruebas con Cucumber, y en lenguaje Gherkin.",
+    "id": "funcionalidad---envio-de-correo-electr�nico-en-la-p�gina-de-gmail.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Gmail.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
